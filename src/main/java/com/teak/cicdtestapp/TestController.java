@@ -11,4 +11,9 @@ public class TestController {
     public ResponseEntity<String> test() {
         return ResponseEntity.ok("OKOK BUILD COMPLETE!! PLEASE..");
     }
+
+    @GetMapping("/test")
+    public ResponseEntity<String> test2() {
+        return ResponseEntity.ok("테스트 API");
+    }
 }
