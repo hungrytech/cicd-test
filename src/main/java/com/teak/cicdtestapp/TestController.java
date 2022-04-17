@@ -14,6 +14,6 @@ public class TestController {
 
     @GetMapping("/test")
     public ResponseEntity<String> test2() {
-        return ResponseEntity.ok("테스트 API slack message");
+        return ResponseEntity.ok("테스트 API slack message slack");
     }
 }
